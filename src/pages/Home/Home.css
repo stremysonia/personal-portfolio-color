@@ -1,0 +1,116 @@
+.triangle-shape {
+    width: 0;
+    height: 0;
+    position: relative;
+    right: -420px;
+    border-left: 362px solid transparent;
+    border-right: 366px solid transparent;
+    border-bottom: 322px solid goldenrod;
+    margin-bottom: 20px; 
+    transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+ }
+
+.triangle-2-shape {
+    width: 0;
+    height: 0;
+    margin: 0, 0, 0, 0;
+    border-left: 756px solid transparent;
+    border-right: 343px solid transparent;
+    border-bottom: 387px solid rgba(42, 157, 143, 1);
+    transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+ }
+
+ .triangle-3-shape {
+   width: 0;
+   height: 0;
+   position: absolute;
+   right: 470px;
+   top: 32px;
+   border-left: 0px solid transparent;
+   border-right: 621px solid transparent;
+   border-bottom: 808px solid #fabea7;
+   transform: rotate(-80deg);
+   -moz-transform: rotate(-180deg);
+   -o-transform: rotate(-180deg);
+ }
+
+ .triangle-4-shape {
+   width: 0;
+   height: 0;
+   position: absolute;
+   top: 55px;
+   border-left: 0px solid transparent;
+   border-right: 419px solid transparent;
+   border-bottom: 330px solid #006a71;
+ }
+
+ .triangle-5-shape {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 320px;
+    right: 1700px;
+    /* bottom: 130px;  */
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 530px solid #fa26a0;
+    clip-path: polygon();
+    transform: rotate(-36deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+ } 
+
+ .triangle-6-shape {
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 190px;
+    top: 60px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 600px solid #dd2c00;
+    transform: rotate(deg);
+    -moz-transform: rotate(-29deg);
+    -o-transform: rotate(-29deg);
+ }
+ 
+.header-container {
+  position: absolute;
+  text-align: center;
+  letter-spacing: .5rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  line-height: 98px;
+}
+
+.header {
+  font-size: 200px;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+}
+
+.header-subtitle {
+  letter-spacing: 28px;
+  font-size: 30px;
+  font-weight: lighter;
+}
+  
+.symbol {
+  position: absolute;
+  animation: bounce .3s linear 20 alternate both;
+}
+
+@keyframes bounce {
+  from {
+    transform: translate(0, 0, 0);
+    }
+  to {
+      transform: translate3d(0, 15px, 0);
+    }
+}

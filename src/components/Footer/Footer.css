@@ -1,0 +1,43 @@
+.footer-container {
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    padding: 15px;
+    background-color: yellow;
+    text-align: center;
+    width: 100%;
+    /* font-size: 4px; */
+}
+
+.rights {
+    float: left;
+    padding-left: 30px;
+    letter-spacing: 5px;
+}
+
+.icons {
+    float: right;
+    margin-right: 160px;
+    font-size: 25px;
+}
+    /* float: right;
+    padding-right: 90px;
+    text-transform: uppercase;
+    letter-spacing: 5px; */
+    /* font-size: 0.5rem; */
+    /* color: black; */
+    /* background-color: black; */
+
+.footer-linkedin-in {
+    color: #1b6ca8;
+    background-color: white;
+}
+    
+.footer-github {
+    /* color: white; */
+    color: black;
+}
+
+.footer-twitter {
+    color: skyblue;
+}
