@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 
+
 library.add(fab)
 
 const Footer = () => {
@@ -24,9 +25,9 @@ const Footer = () => {
                                                         <a target='_blank'
                                                                 rel='noopener noreferrer'
                                                                 href='https://github.com/stremysonia'>
-                                                                        <FontAwesomeIcon
+                                                                        <FontAwesomeIcon 
                                                                         icon={['fab', 'github-square']} 
-                                                                        className="footer-github icons"/>
+                                                                        className="footer-github icons"/> 
                                                         </a>
                                                 </p>
                                                        <p>
@@ -35,9 +36,10 @@ const Footer = () => {
                                                                         href='https://twitter.com/SoniaStRemy1'>
                                                                                 <FontAwesomeIcon 
                                                                                 icon={['fab', 'twitter']} 
-                                                                                className="footer-twitter icons"/>
+                                                                                className="footer-twitter icons"/> 
                                                                 </a>
-                                                        </p>
+                                                       </p>
+                                
                         </div>
                 </>
         );

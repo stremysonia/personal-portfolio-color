@@ -4,12 +4,11 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Navbar, Footer } from '../src/components/index.js';
 import { Home, About, Projects, Contact } from './pages/index.js';
 
-function App() {
+function App () {
     return (
             <>
               <Router>
                 <Navbar/>
-                <Footer/>
                 <Switch>
                   <Route path="/About">
                     <About/>
@@ -27,6 +26,7 @@ function App() {
                     <Home/>
                   </Route>
                 </Switch>
+                <Footer/>
               </Router>
             </>
   );

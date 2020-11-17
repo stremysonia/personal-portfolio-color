@@ -5,23 +5,22 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
         return (
                 <>
+        
                         <div className="navbar-container">
-                                <NavLink exact to="/" className="navbar">
-                                        <span className="navbar-logo-1 logo">Sonia</span>
-                                                <span className="logo-2"></span>
-                                                        <span className="navbar-logo-2 logo">St.Remy</span>
+                                <NavLink exact to="/" className="logo-animation links">
+                                        <span className="logo">Sonia</span>
+                                                <span className=" logo">St.Remy</span>
                                 </NavLink>
-                                        <NavLink exact to="Contact"
-                                                className="navbar-projects links">Contact
-                                        </NavLink>
-                                                <NavLink exact to="About"
-                                                        className="navbar-about links">About
+                                                <NavLink exact to="Contact">
+                                                        <ul className="navbar-contact links">Contact</ul>
                                                 </NavLink>
-                                                        <NavLink exact to="Projects" 
-                                                                className="navbar-contact links">Projects
+                                                        <NavLink exact to="Projects">
+                                                                <ul className="navbar-projects links">Projects</ul>
                                                         </NavLink>
+                                                                <NavLink exact to="About">
+                                                                        <ul className="navbar-about links">About</ul>
+                                                                </NavLink>
                         </div>
-                
                 </>
         );
 }

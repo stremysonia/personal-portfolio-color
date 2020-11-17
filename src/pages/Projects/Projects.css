@@ -1,19 +1,37 @@
 .project-container {
     position: relative;
     padding: 0;
-    height: 550px;
-    width: 1000px;
+    height: 500px;
+    width: 970px;
     background-color: white;
     border: 1px solid white;
-    margin: 100px auto;
+    margin: 55px auto;
+    padding: 10px 10px 10px 10px;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.75);
+}
+
+.image-container {
+   float: left;
+   margin: 10px 10px 10px 10px;
+   /* padding: 10px 10px 10px 10px; */
+  
+}
+
+.project-image {
+    position: absolute;
+    height: 480px;
+   width: 400px;
+   text-align: center;
+    padding: 10px 10px 10px 10px; 
+    /* letter-spacing: 5.5px; */
+    /* font-size: 16px; */
 }
 
 .project-right-side {
     float: right;
-    margin: 35px 35px 35px 35px;
+    margin: 30px 30px 30px 30px;
     height: 370px;
-    width: 400px;
+    width: 440px;
 }
 
 .project-title {
@@ -37,22 +55,26 @@ h1 {
 
 .project-summary {
     position: absolute;
-    line-height: 30px;
+    line-height: 40px;
     /* height: 350px; */
     width: 440px;
-    padding: 0px 10px 10px 0px;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
     float: right;
-    letter-spacing: 5.5px;
-    font-size: 16px;
+    letter-spacing: 1.5px;
+    font-size: 14.5px;
+    text-align: center;
+
 }
 
-.project-footer{
-    letter-spacing: 2.5px;
-    padding-top: 15px;
+.project-footer {
+    letter-spacing: 1.5px;
+    padding-left: 130px;
     position: absolute;
+    /* text-align: center; */
     /* bottom: 40%;  */
     /* float: left; */
-    /* position: absolute; */
+    /* position: absolute;  */
     bottom: 90%;
     top: 90%;
     /* display: inline-block; */
@@ -61,9 +83,10 @@ h1 {
 .footer {
     color: black;
     margin-right: 10px;
-    font-size: 16px;
-    /* display: inline-block; */
-    /* text-align: center; */
+    font-size: 12px;
+    display: inline-block;
+    /* text-align: center;  */
+    /* padding: 2px 2px 2px 2px; */
 }
 
 .footer-links {
@@ -78,60 +101,3 @@ h1 {
     /* text-decoration: none; */
 }
 
-.project-triangle-shape {
-    width: 0;
-    height: 0;
-    position: absolute;
-    top: 22%;
-    /* bottom: 50%; */
-    left: 25%;
-    border-left: 240px solid transparent;
-    border-right: 240px solid transparent;
-    border-bottom: 240px solid #006a71;
-    margin-bottom: 20px; 
-    transform: rotate(180deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    /* opacity: 1; */
-}
-
-.project-triangle-shape-2 {
-    width: 0;
-    height: 0;
-    position: absolute;
-    bottom: 21%;
-    /* bottom: 50%; */
-    left: 25%;
-    border-left: 240px solid transparent;
-    border-right: 240px solid transparent;
-    border-bottom: 240px solid goldenrod;
-    margin-bottom: 20px; 
-    transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    /* opacity: 1; */
-}
-
-.project-circle-shape-3 {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 46%;
-    left: 28%;
-    background-color: #fa26a0;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-}
-
-.project-circle-shape-4 {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 46%;
-    left: 45%;
-    background-color: rgba(42, 157, 143, 1);
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-}
