@@ -62,7 +62,7 @@ const Projects = () => {
                 </div>
                     <div className="project-right-side">
                         <div className="project-title">
-                            <h1>Blutube</h1>
+                            <h1>BluTube</h1>
                                     <div className="project-separator"></div>
                                         <p className="project-summary">
                                            
