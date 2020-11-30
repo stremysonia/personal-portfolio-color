@@ -45,7 +45,6 @@ React.Component {
 
         <div className="form-message">
           <textarea
-            // placeholder="Message"
             id="message"
             cols="50"
             rows="15"
@@ -54,7 +53,8 @@ React.Component {
           ></textarea>
         </div>
 
-        {status === "SUCCESS" ? <p>Thank you for your message.</p> : <button className="form-submit-button">Submit</button>}
+        {status === "SUCCESS" ? <p>Thank you for your message.</p> : 
+        <button className="form-submit-button button">Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
       </div>

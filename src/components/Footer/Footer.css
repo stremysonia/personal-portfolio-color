@@ -6,7 +6,6 @@
     background-color: yellow;
     text-align: center;
     width: 100%;
-    /* font-size: 4px; */
     z-index: 1;
 }
 
@@ -21,13 +20,6 @@
     margin-right: 160px;
     font-size: 25px;
 }
-    /* float: right;
-    padding-right: 90px;
-    text-transform: uppercase;
-    letter-spacing: 5px; */
-    /* font-size: 0.5rem; */
-    /* color: black; */
-    /* background-color: black; */
 
 .footer-linkedin-in {
     color: #1b6ca8;
@@ -35,7 +27,6 @@
 }
     
 .footer-github {
-    /* color: white; */
     color: black;
 }
 
@@ -43,9 +34,9 @@
     color: skyblue;
 }
 
-@media (max-width: 750px) and (max-width: 900px) and (max-width: 1000px){
+/* @media (max-width: 750px) and (max-width: 900px) and (max-width: 1000px){
      {
        
     }
 
-}
+} */

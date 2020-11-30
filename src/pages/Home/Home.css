@@ -1,3 +1,8 @@
+.triangle-container {
+  margin: 0;
+  padding: 0;
+}
+
 .triangle-1 {
   width: 0;
   height: 0;
@@ -26,13 +31,11 @@
   width: 0;
   height: 0;
   position: absolute;
-  /* margin: 0, 0, 0, 0; */
   right: 470px;
   top: 32px;
   border-left: 0px solid transparent;
   border-right: 621px solid transparent;
   border-bottom: 808px solid #fabea7;
-  /* margin-bottom: 20px; */
   transform: rotate(-80deg);
   -moz-transform: rotate(-80deg);
   -o-transform: rotate(-80deg);
@@ -47,9 +50,6 @@
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
   border-bottom: 600px solid #dd2c00;
-  /* transform: rotate(deg); */
-  /* -moz-transform: rotate(-29deg); */
-  /* -o-transform: rotate(-29deg); */
 }
 
  .triangle-5 {
@@ -124,8 +124,6 @@
 
   .header-container {
     line-height: 58px;
-    /* letter-spacing:; */
-    /* text-align: center; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -140,7 +138,6 @@
   .header-subtitle {
     letter-spacing: 12px;
     font-size: 16px;
-    /* line-height: 25px; */
   }
 
   .symbol {
@@ -167,8 +164,6 @@
 
   .header-container {
     line-height: 58px;
-    /* letter-spacing:; */
-    /* text-align: center; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -183,7 +178,6 @@
   .header-subtitle {
     letter-spacing: 12px;
     font-size: 16px;
-    /* line-height: 25px; */
   }
 
   .symbol {

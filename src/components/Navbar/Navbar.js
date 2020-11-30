@@ -8,8 +8,7 @@ const Navbar = () => {
         
                         <div className="navbar-container">
                                 <NavLink exact to="/" className="logo-animation links">
-                                        <span className="logo">Sonia</span>
-                                                <span className=" logo">St.Remy</span>
+                                        <span className="logo">Sonia St.Remy</span>
                                 </NavLink>
                                                 <NavLink exact to="Contact">
                                                         <ul className="navbar-contact links">Contact</ul>

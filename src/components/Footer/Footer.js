@@ -15,7 +15,7 @@ const Footer = () => {
                                         <p>
                                                 <a target='_blank'
                                                         rel='noopener noreferrer'
-                                                        href='https.//www.linkedin.com/in/sonia-st-remy/'>
+                                                        href='https.//www.linkedin.com/in/sonia-st-remy'>
                                                                 <FontAwesomeIcon
                                                                 icon={['fab', 'linkedin']} 
                                                                 className="footer-linkedin-in icons"/>

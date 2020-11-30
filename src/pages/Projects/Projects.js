@@ -11,68 +11,136 @@ library.add( faClock,
     faLaptop, 
     faCode );
 
-
+   
 const Projects = () => {
-        return (
-            <>
-                <div className="project-container">
-                    <div className="image-container">
-                        <div className="project-image">
-                            <img src={findpeace} alt="FindPeace Main Page" width="450px" height="450"></img>
-                        </div>
+    return (
+        <>
+               <div className="project-container">
+                <div className="image-container">
+                    <div className="project-image">
+                        <img  alt="" width="450px" height="450"></img>
                     </div>
-                        <div className="project-right-side">
-                            <div className="project-title">
-                                <h1>FindPeace</h1>
-                                        <div className="project-separator"></div>
-                                            <p className="project-summary">
-                                                FindPeace is an app that gives users the ability 
-                                                to find resources when they are at their most 
-                                                vulnerable. This app is only known through word 
-                                                of mouth by the medical and mental health community 
-                                                to help adults, children and families that find 
-                                                themselves in an unsafe environment due to sexual, 
-                                                physical, mental and verbal abuse. This will also 
-                                                assist user who are seeking HIV testing or treatment, 
-                                                emergency housing and transitional housing. 
-                                            </p>
-                                                <div className="project-footer">
-                                                    {/* <span>
+                </div>
+                    <div className="project-right-side">
+                        <div className="project-title">
+                            <h1>Ecommerce Website</h1>
+                                    <div className="project-separator"></div>
+                                        <p className="project-summary">
+                                            
+                                        </p>
+                                            <div className="project-footer">
+                                                    <span>
                                                         <a target='_blank'
                                                             rel='noopener noreferrer'
-                                                            button='#'>
+                                                            href='https://find-peace.herokuapp.com/'>
                                                                 <FontAwesomeIcon
-                                                                icon={['far', 'clock']}
-                                                                className="project-sprint footer"/>
-                                                                    <div className="footer-links">Sprint</div>
+                                                                icon={['fas', 'laptop']}
+                                                                className="project-website footer"/>
+                                                                    <div className="footer-links">Website</div>
                                                         </a>
-                                                    </span> */}
+                                                    </span>
                                                         <span>
                                                             <a target='_blank'
                                                                 rel='noopener noreferrer'
-                                                                href='https://find-peace.herokuapp.com/'>
+                                                                href='https://github.com/wyncode/C36_find_peace'>
                                                                     <FontAwesomeIcon
-                                                                    icon={['fas', 'laptop']}
+                                                                    icon={['fas', 'code']}
                                                                     className="project-website footer"/>
-                                                                        <div className="footer-links">Website</div>
+                                                                        <div className="footer-links">Code</div>
+
                                                             </a>
                                                         </span>
-                                                            <span>
-                                                                <a target='_blank'
-                                                                    rel='noopener noreferrer'
-                                                                    href='https://github.com/wyncode/C36_find_peace'>
-                                                                        <FontAwesomeIcon
-                                                                        icon={['fas', 'code']}
-                                                                        className="project-website footer"/>
-                                                                            <div className="footer-links">Code</div>
-
-                                                                </a>
-                                                            </span>
-                                                </div>
-                            </div>
+                                            </div>
                         </div>
-                </div> 
-                        <div className="project-container">
+                    </div>
+            </div> 
+               <div className="project-container">
+                <div className="image-container">
+                    <div className="project-image">
+                        <img  alt="" width="450px" height="450"></img>
+                    </div>
+                </div>
+                    <div className="project-right-side">
+                        <div className="project-title">
+                            <h1>Blutube</h1>
+                                    <div className="project-separator"></div>
+                                        <p className="project-summary">
+                                           
+                                        </p>
+                                            <div className="project-footer">
+                                                    <span>
+                                                        <a target='_blank'
+                                                            rel='noopener noreferrer'
+                                                            href='https://find-peace.herokuapp.com/'>
+                                                                <FontAwesomeIcon
+                                                                icon={['fas', 'laptop']}
+                                                                className="project-website footer"/>
+                                                                    <div className="footer-links">Website</div>
+                                                        </a>
+                                                    </span>
+                                                        <span>
+                                                            <a target='_blank'
+                                                                rel='noopener noreferrer'
+                                                                href='https://github.com/wyncode/C36_find_peace'>
+                                                                    <FontAwesomeIcon
+                                                                    icon={['fas', 'code']}
+                                                                    className="project-website footer"/>
+                                                                        <div className="footer-links">Code</div>
+
+                                                            </a>
+                                                        </span>
+                                            </div>
+                        </div>
+                    </div>
+            </div> 
+            <div className="project-container">
+                <div className="image-container">
+                    <div className="project-image">
+                        <img src={findpeace} alt="FindPeace Main Page" width="450px" height="450"></img>
+                    </div>
+                </div>
+                    <div className="project-right-side">
+                        <div className="project-title">
+                            <h1>FindPeace</h1>
+                                    <div className="project-separator"></div>
+                                        <p className="project-summary">
+                                            FindPeace is an app that gives users the ability 
+                                            to find resources when they are at their most 
+                                            vulnerable. This app is only known through word 
+                                            of mouth by the medical and mental health community 
+                                            to help adults, children and families that find 
+                                            themselves in an unsafe environment due to sexual, 
+                                            physical, mental and verbal abuse. This will also 
+                                            assist user who are seeking HIV testing or treatment, 
+                                            emergency housing and transitional housing. 
+                                        </p>
+                                            <div className="project-footer">
+                                                    <span>
+                                                        <a target='_blank'
+                                                            rel='noopener noreferrer'
+                                                            href='https://find-peace.herokuapp.com/'>
+                                                                <FontAwesomeIcon
+                                                                icon={['fas', 'laptop']}
+                                                                className="project-website footer"/>
+                                                                    <div className="footer-links">Website</div>
+                                                        </a>
+                                                    </span>
+                                                        <span>
+                                                            <a target='_blank'
+                                                                rel='noopener noreferrer'
+                                                                href='https://github.com/wyncode/C36_find_peace'>
+                                                                    <FontAwesomeIcon
+                                                                    icon={['fas', 'code']}
+                                                                    className="project-website footer"/>
+                                                                        <div className="footer-links">Code</div>
+
+                                                            </a>
+                                                        </span>
+                                            </div>
+                        </div>
+                    </div>
+            </div> 
+            <div className="project-container">
                             <div className="image-container">
                                 <div className="project-image">
                                     <img src={wyneats} alt="WynEats Main Page" width="450px" height="450"></img>
@@ -91,16 +159,6 @@ const Projects = () => {
                                                     pick a random restuarant when picking is just too hard.
                                                 </p>
                                                     <div className="project-footer">
-                                                        {/* <span>
-                                                            <a target='_blank'
-                                                                rel='noopener noreferrer'
-                                                                href='#'>
-                                                                    <FontAwesomeIcon
-                                                                    icon={['far', 'clock']}
-                                                                    className="project-sprint footer"/>
-                                                                        <div className="footer-links">Sprint</div>
-                                                            </a>
-                                                        </span> */}
                                                             <span>
                                                                 <a target='_blank'
                                                                     rel='noopener noreferrer'
@@ -125,7 +183,6 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
-                        {/* </div>  */}
             </>
         );
 }

@@ -1,20 +1,12 @@
-/* .form {
-    display: flex;
-    justify-content: center;
-    margin: 90px auto;
-} */
-
 input, textarea {
     border-radius: 8px;
     border: .5px solid black;
-    /* font-family: 'Courier New', Courier, monospace; */
-    /* padding: 5px 5px 5px 5px; */
-    
 }
 
 .form-container {
-    width: 500px;
-    height: 500px;
+    position: relative;
+    width: 450px;
+    height: 450px;
     border: .2px solid white;
     padding: 30px 30px 30px 30px;
     background-color: white;
@@ -24,6 +16,7 @@ input, textarea {
     margin: 90px auto;
     align-items: center;
     border-radius: 8px;
+    display: flex;
 }
 
 input {
@@ -33,26 +26,18 @@ input {
     width: 400px;
     font-size: 16px;
     padding: 5px 5px 5px 5px;
-    /* border: .2 solid black; */
 }
-
 
 .form-message {
     display: flex;
-    /* align-items: center; */
     justify-content: center;
-    /* margin: 20px 20px 20px 20px; */
     letter-spacing: 4px;
     font-size: 16px;
     padding: 5px 5px 5px 5px;
     font-size: 16px;
 }
-/*  */
-/* label { */
-    /* letter-spacing: 4px; */
-/* } */
 
-.form-submit-button {
+.button {
     font-size: 16px;
     text-transform: uppercase;
     padding: 8px 8px 8px 8px;
@@ -61,14 +46,17 @@ input {
     border: .2px solid orangered;
     background-color: orangered;
     color: white;
-    display: flex;
-    /* align-content: center; */
-    justify-content: center;
+    align-self: center;
 }
 
 button:hover {
     cursor: pointer;
-    /* padding: 10px 10px 10px 10px; */
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
