@@ -104,15 +104,16 @@ const Projects = () => {
                             <h1>FindPeace</h1>
                                     <div className="project-separator"></div>
                                         <p className="project-summary">
-                                            FindPeace is an app that gives users the ability 
+                                            FindPeace is an application that gives users the ability 
                                             to find resources when they are at their most 
-                                            vulnerable. This app is only known through word 
-                                            of mouth by the medical and mental health community 
-                                            to help adults, children and families that find 
-                                            themselves in an unsafe environment due to sexual, 
-                                            physical, mental and verbal abuse. This will also 
-                                            assist user who are seeking HIV testing or treatment, 
-                                            emergency housing and transitional housing. 
+                                            vulnerable. This app was created using HTML, Pure CSS, CSS,
+                                            JavaScript, and React on Rails. The database of resources 
+                                            was created by the team because we could not find a database 
+                                            that suited our needs. Mapbox GL with a token key was used 
+                                            to create a map that would give the user direction to the 
+                                            resource center of their choosing. An escape button was 
+                                            created when selected would direct the user to a google 
+                                            search for yoga. 
                                         </p>
                                             <div className="project-footer">
                                                     <span>
