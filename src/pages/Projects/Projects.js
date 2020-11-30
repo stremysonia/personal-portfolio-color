@@ -23,16 +23,19 @@ const Projects = () => {
                 </div>
                     <div className="project-right-side">
                         <div className="project-title">
-                            <h1>Ecommerce Website</h1>
+                            <h1>Movie App</h1>
                                     <div className="project-separator"></div>
                                         <p className="project-summary">
-                                            
+                                            Movie App is an application that gives users the ability 
+                                            to find movies using OMDB API with a token key. This app 
+                                            uses HTML, CSS, JavaScript and React. A favorite button was 
+                                            created so the user can add a list of their favorite go to movies.
                                         </p>
                                             <div className="project-footer">
                                                     <span>
                                                         <a target='_blank'
                                                             rel='noopener noreferrer'
-                                                            href='https://find-peace.herokuapp.com/'>
+                                                            href=''>
                                                                 <FontAwesomeIcon
                                                                 icon={['fas', 'laptop']}
                                                                 className="project-website footer"/>
@@ -42,7 +45,7 @@ const Projects = () => {
                                                         <span>
                                                             <a target='_blank'
                                                                 rel='noopener noreferrer'
-                                                                href='https://github.com/wyncode/C36_find_peace'>
+                                                                href=''>
                                                                     <FontAwesomeIcon
                                                                     icon={['fas', 'code']}
                                                                     className="project-website footer"/>
@@ -65,13 +68,16 @@ const Projects = () => {
                             <h1>BluTube</h1>
                                     <div className="project-separator"></div>
                                         <p className="project-summary">
-                                           
+                                           BluTube is an application that allows users to search and watch videos to
+                                           assist them with learning program languages such as Python, JavaScript,
+                                           React on Rails, C# and etc. The application uses Youtube API with a token 
+                                           key, Material UI to produce a responsive app.
                                         </p>
                                             <div className="project-footer">
                                                     <span>
                                                         <a target='_blank'
                                                             rel='noopener noreferrer'
-                                                            href='https://find-peace.herokuapp.com/'>
+                                                            href=''>
                                                                 <FontAwesomeIcon
                                                                 icon={['fas', 'laptop']}
                                                                 className="project-website footer"/>
@@ -81,7 +87,7 @@ const Projects = () => {
                                                         <span>
                                                             <a target='_blank'
                                                                 rel='noopener noreferrer'
-                                                                href='https://github.com/wyncode/C36_find_peace'>
+                                                                href='https://github.com/stremysonia/blutube'>
                                                                     <FontAwesomeIcon
                                                                     icon={['fas', 'code']}
                                                                     className="project-website footer"/>
