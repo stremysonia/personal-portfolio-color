@@ -10,15 +10,12 @@ const Navbar = () => {
                                 <NavLink exact to="/" className="logo-animation links">
                                         <span className="logo">Sonia St.Remy</span>
                                 </NavLink>
-                                                <NavLink exact to="Contact">
-                                                        <ul className="navbar-contact links">Contact</ul>
+                                        <NavLink exact to="Contact" className="links">Contact
+                                        </NavLink>
+                                                <NavLink exact to="Projects" className="links">Projects
                                                 </NavLink>
-                                                        <NavLink exact to="Projects">
-                                                                <ul className="navbar-projects links">Projects</ul>
+                                                        <NavLink exact to="About" className="links">About
                                                         </NavLink>
-                                                                <NavLink exact to="About">
-                                                                        <ul className="navbar-about links">About</ul>
-                                                                </NavLink>
                         </div>
                 </>
         );

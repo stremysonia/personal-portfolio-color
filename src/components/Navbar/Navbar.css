@@ -1,12 +1,26 @@
-/* Component Container */
+body {
+    overflow: hidden;
+    height: 100vh;
+    width:100vw;
+}
+
 .navbar-container {
     left: 0;
     top: 0;
-    position: fixed;
+    position: absolute;
     background-color: yellow;
     width: 100%;
-    padding: 15px;
+    padding: 15px 15px;
     z-index: 1;
+}
+
+.links {
+    float: right;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    text-decoration: none;
+    color: black;
+    font-size: 14.5px;
 }
 
 /* Logo Animation */
@@ -34,19 +48,9 @@
 }
 
 /* Logo */
-.logo {
+/* .logo {
     margin-right: 5px;
-}
-
-/* Navigation Links */
-.links {
-    float: right;
-    padding-right: 100px; 
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    text-decoration: none;
-    color: black;
-}
+} */
 
 /* Media Queries Max - Width 750, 900, 1000*/
 @media screen and (min-width: 750px) and (max-width: 900px) and (max-width: 1000px){

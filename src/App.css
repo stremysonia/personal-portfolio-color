@@ -1,8 +1,10 @@
 * {
+    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
 }
 
 body {
-    padding: 4rem 4rem 4rem 4rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }

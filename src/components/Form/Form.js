@@ -20,45 +20,47 @@ React.Component {
         action="https://formspree.io/f/moqkzjrz"
         method="POST"
       >
-  
-        <div className="form-name">
+      <div className="contact-form">
+        <div>
           <input
+            className="name-contact-form"
             placeholder="Name"
             id="name"
             type="text"
-            name="Name"
+            name="name"
             autoComplete="off"
-            required
+            // required
           />
         </div>
-
-        <div className="form-email-address">
+        <div>
           <input
+            className="email-contact-form"
             placeholder="E-mail"
             id="email"
             type="text"
             name="email"
             autoComplete="off"
-            required
+            // required
           />
         </div>
-
-        <div className="form-message">
+        <div>
           <textarea
+            className="message-contact-form"
             id="message"
-            cols="50"
-            rows="15"
+            type="text"
+            placeholder="Message"
             autoComplete="off"
-            required
-          ></textarea>
+            // required
+          />
         </div>
-
+        <div className="form-submit-container">
         {status === "SUCCESS" ? <p>Thank you for your message.</p> : 
-        <button className="form-submit-button button">Submit</button>}
+        <button className="button">Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
+        </div>
+        </div>
       </form>
       </div>
-    
     );
   }
 
