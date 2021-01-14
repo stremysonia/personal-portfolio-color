@@ -26,17 +26,7 @@ const About = () => {
                             <div className="words">Inquistive</div>
                             <div className="words">Charismatic</div>
                         </div>
-         
-                {/* </div>
-                     </div>
-                         <div className="about-description">
-                            <span className="words">Edgy</span>
-                             <span className="words">Creative</span>
-                             <span className="words">Passionate</span>
-                            <span className="words">Inquistive</span>
-                             <span className="words">Charismatic</span>
-                         </div> */}
-                         </div>
+            </div>
             </>
         );
 }

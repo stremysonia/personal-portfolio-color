@@ -9,11 +9,9 @@
 .bio {
     text-align: center;
     font-size: 15px;
-    /* position: absolute; */
 }
 
 .about-paragraph {
-    /* border: 1px solid black; */
     position: relative; 
     top: 50%;
     right: 50%;
@@ -22,26 +20,16 @@
 .about-description {
     position: absolute;
     display: flex;
-    /* justify-content: space-between; */
-    /* align-content: center; */
     text-align: center;
     top: 50%;
     right: 50%;
     margin-top: 20%;
-    /* left: 22.5%; */
-    /* top: 70%; */
-    /* text-align: center;  */
 }
 
 .words {
     letter-spacing: 5px;
-    /* display: grid; */
-    /* grid-gap: 10px; */
-
-    /* position: absolute; */
     padding: 20px;
     text-transform: uppercase;
-    /* margin-right: 100px; */
 }
 
 @media (max-width: 750px) {

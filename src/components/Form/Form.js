@@ -29,7 +29,6 @@ React.Component {
             type="text"
             name="name"
             autoComplete="off"
-            // required
           />
         </div>
         <div>
@@ -40,7 +39,6 @@ React.Component {
             type="text"
             name="email"
             autoComplete="off"
-            // required
           />
         </div>
         <div>
@@ -50,7 +48,6 @@ React.Component {
             type="text"
             placeholder="Message"
             autoComplete="off"
-            // required
           />
         </div>
         <div className="form-submit-container">
