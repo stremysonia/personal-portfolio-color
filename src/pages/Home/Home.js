@@ -17,69 +17,69 @@ const Home = () => {
             <>
                 <div className="grid-container">
                     <div>
-                        <img src={face} className="grid-item"></img>
-                        <img src={lightbulb} className="grid-item"></img>
-                        <img src={fish} className="grid-item"></img>
-                        <img src={graduationcap} className="grid-item"></img>
-                        <img src={faucet} className="grid-item"></img>
-                        <img src={man} className="grid-item"></img>
-                        <img src={ball} className="grid-item" ></img>
-                        <img src={sunglasses} className="grid-item"></img>
-                        <img src={bricks} className="grid-item"></img>
-                        <img src={flowerpot} className="grid-item"></img>
-                        <img src={racetrack} className="grid-item"></img>
+                        <img src={face} alt="Picasso Like Face" className="grid-item"></img>
+                        <img src={lightbulb} alt="Image of Several Lightbulbs" className="grid-item"></img>
+                        <img src={fish} alt="Fish Walking Down Street" className="grid-item"></img>
+                        <img src={graduationcap} alt="Graduation Hat On Top of Persons Head" className="grid-item"></img>
+                        <img src={faucet} alt="Lightbulb with a Faucet Attached" className="grid-item"></img>
+                        <img src={man} alt="Image of a Man" className="grid-item"></img>
+                        <img src={ball} alt="Ball with Hands Sticking Out" className="grid-item" ></img>
+                        <img src={sunglasses} alt="Hourglass" className="grid-item"></img>
+                        <img src={bricks} alt="Brick Wall with Hands" className="grid-item"></img>
+                        <img src={flowerpot} alt="Flower Pot of Faces" className="grid-item"></img>
+                        <img src={racetrack} alt="Image of a Race Track" className="grid-item"></img>
                     </div>
                     <div>
-                        <img src={lightbulb} className="grid-item"></img>
-                        <img src={fish} className="grid-item"></img>
-                        <img src={graduationcap} className="grid-item"></img>
-                        <img src={faucet} className="grid-item"></img>
-                        <img src={man} className="grid-item"></img>
-                        <img src={ball} className="grid-item" ></img>
-                        <img src={sunglasses} className="grid-item"></img>
-                        <img src={bricks} className="grid-item"></img>
-                        <img src={flowerpot} className="grid-item"></img>
-                        <img src={racetrack} className="grid-item"></img>
-                        <img src={face} className="grid-item"></img>
+                        <img src={lightbulb} alt="Image of Several Lightbulbs" className="grid-item"></img>
+                        <img src={fish} alt="Fish Walking Down Street" className="grid-item"></img>
+                        <img src={graduationcap} alt="Graduation Hat On Top of Persons Head" className="grid-item"></img>
+                        <img src={faucet} alt="Lightbulb with a Faucet Attached" className="grid-item"></img>
+                        <img src={man} alt="Image of a Man" className="grid-item"></img>
+                        <img src={ball} alt="Ball with Hands Sticking Out" className="grid-item" ></img>
+                        <img src={sunglasses} alt="Hourglass" className="grid-item"></img>
+                        <img src={bricks} alt="Brick Wall with Hands" className="grid-item"></img>
+                        <img src={flowerpot} alt="Flower Pot of Faces" className="grid-item"></img>
+                        <img src={racetrack} alt="Race Track" className="grid-item"></img>
+                        <img src={face} alt="Picasso Like Face" className="grid-item"></img>
                     </div>
                     <div>
-                        <img src={fish} className="grid-item"></img>
-                        <img src={graduationcap} className="grid-item"></img>
-                        <img src={faucet} className="grid-item"></img>
-                        <img src={man} className="grid-item"></img>
-                        <img src={ball} className="grid-item" ></img>
-                        <img src={sunglasses} className="grid-item"></img>
-                        <img src={bricks} className="grid-item"></img>
-                        <img src={flowerpot} className="grid-item"></img>
-                        <img src={racetrack} className="grid-item"></img>
-                        <img src={face} className="grid-item"></img>
-                        <img src={lightbulb} className="grid-item"></img>
+                        <img src={fish} alt="Fish Walking Down Street" className="grid-item"></img>
+                        <img src={graduationcap} alt="Gaduation Hat On Top of Persons Head" className="grid-item"></img>
+                        <img src={faucet} alt="Lightbulb with a Faucet Attached" className="grid-item"></img>
+                        <img src={man} alt="Image of a Man" className="grid-item"></img>
+                        <img src={ball} alt="Ball with Hands Sticking Out" className="grid-item" ></img>
+                        <img src={sunglasses} alt="Hourglass" className="grid-item"></img>
+                        <img src={bricks} alt="Brick Wall with Hands" className="grid-item"></img>
+                        <img src={flowerpot} alt="Flower Pot of Faces" className="grid-item"></img>
+                        <img src={racetrack} alt="Race Track" className="grid-item"></img>
+                        <img src={face} alt="Picasso Like Face" className="grid-item"></img>
+                        <img src={lightbulb} alt="Inage of Several Lightbulbs" className="grid-item"></img>
                     </div>
                     <div>
-                        <img src={graduationcap} className="grid-item"></img>
-                        <img src={faucet} className="grid-item"></img>
-                        <img src={man} className="grid-item"></img>
-                        <img src={ball} className="grid-item" ></img>
-                        <img src={sunglasses} className="grid-item"></img>
-                        <img src={bricks} className="grid-item"></img>
-                        <img src={flowerpot} className="grid-item"></img>
-                        <img src={racetrack} className="grid-item"></img>
-                        <img src={face} className="grid-item"></img>
-                        <img src={lightbulb} className="grid-item"></img>
-                        <img src={fish} className="grid-item"></img>
+                        <img src={graduationcap} alt="Gaduation Hat On Top of Persons Head" className="grid-item"></img>
+                        <img src={faucet} alt="Lightbulb with a Faucet Attached" className="grid-item"></img>
+                        <img src={man} alt="Image of a Man" className="grid-item"></img>
+                        <img src={ball} alt="Ball with Hands Sticking Out" className="grid-item" ></img>
+                        <img src={sunglasses} alt="Hourglass" className="grid-item"></img>
+                        <img src={bricks} alt="Brick Wall with Hands" className="grid-item"></img>
+                        <img src={flowerpot} alt="Flower Pot of Faces" className="grid-item"></img>
+                        <img src={racetrack} alt="Race Track" className="grid-item"></img>
+                        <img src={face} alt="Picasso Like Face" className="grid-item"></img>
+                        <img src={lightbulb} alt="Image of Several Lightbulbs" className="grid-item"></img>
+                        <img src={fish} alt="Fish Walking Down Street" className="grid-item"></img>
                     </div>
                     <div>
-                        <img src={faucet} className="grid-item"></img>
-                        <img src={man} className="grid-item"></img>
-                        <img src={ball} className="grid-item" ></img>
-                        <img src={sunglasses} className="grid-item"></img>
-                        <img src={bricks} className="grid-item"></img>
-                        <img src={flowerpot} className="grid-item"></img>
-                        <img src={racetrack} className="grid-item"></img>
-                        <img src={face} className="grid-item"></img>
-                        <img src={lightbulb} className="grid-item"></img>
-                        <img src={fish} className="grid-item"></img>
-                        <img src={graduationcap} className="grid-item"></img>
+                        <img src={faucet} alt="Lightbulb with a Faucet Attached" className="grid-item"></img>
+                        <img src={man} alt="Image of a Man" className="grid-item"></img>
+                        <img src={ball} alt="Ball with Hands Sticking Out" className="grid-item" ></img>
+                        <img src={sunglasses} alt="Hourglass" className="grid-item"></img>
+                        <img src={bricks} alt="Brick Wall with Hands" className="grid-item"></img>
+                        <img src={flowerpot} alt="Flower Pot of Faces" className="grid-item"></img>
+                        <img src={racetrack} alt="Race Track" className="grid-item"></img>
+                        <img src={face} alt="Picasso Like Face" className="grid-item"></img>
+                        <img src={lightbulb} alt="Image of Several Lightbulbs" className="grid-item"></img>
+                        <img src={fish} alt="Fish Walking Down Street" className="grid-item"></img>
+                        <img src={graduationcap} alt="Gaduation Hat On Top of Persons Head" className="grid-item"></img>
                 </div>
             </div>
             <div className="header-container">
