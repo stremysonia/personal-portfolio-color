@@ -4,6 +4,7 @@ import './Projects.css';
 import 'boxicons'
 import findpeace from '../../assets/findpeace.png'
 import wyneats from '../../assets/wyneats.png'
+import ratemymd from '../../assets/ratemymd.png'
    
 const Projects = () => {
             return (
@@ -12,7 +13,7 @@ const Projects = () => {
                             <div className="card-container">
                                 <div className="front-side">
                                     <div className="shapes">
-                                        <div className="card-small-circle"></div>
+                                        <div className="card-small-triangle"></div>
                                         <div className="card-triangle"></div>
                                         <div className="card-right-triangle"></div>
                                         <div className="card-large-circle"></div>
@@ -28,45 +29,45 @@ const Projects = () => {
                                     CSS, JavaScript and React. The app will use the Yelp Api to 
                                     retrieve the most up to date information about the doctors, 
                                     nurses and hospitals in the Florida area.
-                                <span className="card-icons">
-                                        <a target="_blank"
-                                            rel="noopener noreferrer"
-                                            href="https://github.com/stremysonia/ratemymd.com"
-                                            className="project-icons">
-                                                <box-icon name='code-alt' 
-                                                            size="sm" 
-                                                            animation="burst-hover" 
-                                                            color="gray">
-                                                </box-icon>
-                                        </a>
-                                        <a target="_blank" 
-                                            rel="noopener noreferrer"
-                                            href="#"
-                                            className="project-icons">
-                                                <box-icon name='laptop'
-                                                            size="sm"
-                                                            animation="burst-hover"
-                                                            color="gray">
-                                                </box-icon>
-                                        </a>
-                                        <a target="_blank" 
-                                            rel="noopener noreferrer"
-                                            href="#"
-                                            className="project_icons">
-                                                <box-icon name='image'
-                                                            size="sm"
-                                                            animation="burst-hover"
-                                                            color="gray">
-                                                </box-icon>
-                                        </a>
-                                </span>
+                                <div className="card-icons">
+                                    <i target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="#"
+                                        className="project-icons">
+                                            <box-icon name='code-alt' 
+                                                        size="sm" 
+                                                        animation="burst-hover" 
+                                                        color="gray">
+                                            </box-icon>
+                                    </i>
+                                    <i target="_blank" 
+                                        rel="noopener noreferrer"
+                                        href="#"
+                                        className="project-icons">
+                                            <box-icon name='laptop'
+                                                        size="sm"
+                                                        animation="burst-hover"
+                                                        color="gray">
+                                            </box-icon>
+                                    </i>
+                                    <i target="_blank" 
+                                        rel="noopener noreferrer"
+                                        href={ratemymd}
+                                        className="project_icons">
+                                            <box-icon name='image'
+                                                        size="sm"
+                                                        animation="burst-hover"
+                                                        color="gray">
+                                            </box-icon>
+                                    </i>
+                                </div>
                             </div>
                             </div>
                         </div>
                         <div className="card-container">
                                 <div className="front-side">
                                     <div className="shapes">
-                                        <div className="card-small-circle"></div>
+                                        <div className="card-small-triangle"></div>
                                         <div className="card-triangle"></div>
                                         <div className="card-right-triangle"></div>
                                         <div className="card-large-circle"></div>
@@ -83,38 +84,38 @@ const Projects = () => {
                                     that would give the user direction to the resource center 
                                     of their choosing. An escape button was created when selected 
                                     would direct the user to a google search for yoga.
-                                <span className="card-icons">
-                                    <a target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://github.com/stremysonia/ratemymd.com"
-                                        className="project-icons">
-                                            <box-icon name='code-alt' 
-                                                        size="sm" 
-                                                        animation="burst-hover" 
-                                                        color="gray">
-                                            </box-icon>
-                                    </a>
-                                    <a target="_blank" 
-                                        rel="noopener noreferrer"
-                                        href="https://github.com/stremysonia/ratemymd.com"
-                                        className="project-icons">
-                                            <box-icon name='laptop'
-                                                        size="sm"
-                                                        animation="burst-hover"
-                                                        color="gray">
-                                            </box-icon>
-                                    </a>
-                                    <a target="_blank" 
-                                        rel="noopener noreferrer"
-                                        href={findpeace}
-                                        className="project_icons">
-                                            <box-icon name='image'
-                                                        size="sm"
-                                                        animation="burst-hover"
-                                                        color="gray">
-                                            </box-icon>
-                                    </a>
-                                </span>
+                                    <div className="card-icons">
+                                        <i target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="#"
+                                            className="project-icons">
+                                                <box-icon name='code-alt' 
+                                                            size="sm" 
+                                                            animation="burst-hover" 
+                                                            color="gray">
+                                                </box-icon>
+                                        </i>
+                                        <i target="_blank" 
+                                            rel="noopener noreferrer"
+                                            href="https://find-peace.herokuapp.com/"
+                                            className="project-icons">
+                                                <box-icon name='laptop'
+                                                            size="sm"
+                                                            animation="burst-hover"
+                                                            color="gray">
+                                                </box-icon>
+                                        </i>
+                                        <i target="_blank" 
+                                            rel="noopener noreferrer"
+                                            href={findpeace}
+                                            className="project_icons">
+                                                <box-icon name='image'
+                                                            size="sm"
+                                                            animation="burst-hover"
+                                                            color="gray">
+                                                </box-icon>
+                                        </i>
+                                    </div>
                             </div>
                             </div>
                             </div>
@@ -122,7 +123,7 @@ const Projects = () => {
                             <div className="card-container">
                                 <div className="front-side">
                                     <div className="shapes">
-                                        <div className="card-small-circle"></div>
+                                        <div className="card-small-triangle"></div>
                                         <div className="card-triangle"></div>
                                         <div className="card-right-triangle"></div>
                                         <div className="card-large-circle"></div>
@@ -136,18 +137,18 @@ const Projects = () => {
                                     and information on a clean and simple UI that allows the 
                                     user to favorite their most loved restaurants as well as 
                                     pick a random restuarant when picking is just too hard.
-                                <span className="card-icons">
-                                    <a target="_blank"
+                                <div className="card-icons">
+                                    <i target="_blank"
                                         rel="noopener noreferrer"
-                                        href="https://github.com/wyncode/C36_midterm_dean_jamile_joseph_lavonnyka_sonia"
+                                        href="#"
                                         className="project-icons">
                                             <box-icon name='code-alt' 
                                                         size="sm" 
                                                         animation="burst-hover" 
                                                         color="gray">
                                             </box-icon>
-                                    </a>
-                                    <a target="_blank" 
+                                    </i>
+                                    <i target="_blank" 
                                         rel="noopener noreferrer"
                                         href="https://wyneats1.herokuapp.com/"
                                         className="project-icons">
@@ -156,8 +157,8 @@ const Projects = () => {
                                                         animation="burst-hover"
                                                         color="gray">
                                             </box-icon>
-                                    </a>
-                                    <a target="_blank" 
+                                    </i>
+                                    <i target="_blank" 
                                         rel="noopener noreferrer"
                                         href={wyneats}
                                         className="project_icons">
@@ -166,28 +167,13 @@ const Projects = () => {
                                                         animation="burst-hover"
                                                         color="gray">
                                             </box-icon>
-                                    </a>
-                                </span>
+                                    </i>
+                                </div>
                             </div>
                             </div>
                             </div>
                             </div>
                         </div>
-                        
-                        
-                        
-
-
-
-
-
-
-
-
-                           
-            
-                
-                    
                     </>
             
         );
