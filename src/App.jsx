@@ -10,21 +10,23 @@ function App () {
               <Router>
                 <Navbar/>
                 <Switch>
-                  <Route path="/About">
+
+                  <Route path="/about">
                     <About/>
                     </Route>
                     
-                    <Route path="/Projects">
+                    <Route path="/projects">
                       <Projects/>
                       </Route>
 
-                      <Route path="/Contact">
+                      <Route path="/contact">
                     <Contact/>
                     </Route>
                   
                   <Route exact path="/">
                     <Home/>
                   </Route>
+                  
                 </Switch>
                 <Footer/>
               </Router>

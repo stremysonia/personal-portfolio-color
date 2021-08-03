@@ -1,0 +1,27 @@
+.home-button {
+    top: 67%;
+    left: 61.5%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    letter-spacing: .08rem;
+    padding: .9rem;
+    border-radius: .4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: .01rem solid green;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    width: 12rem;
+    height: 3.5rem;
+    color: white;
+    text-decoration: none;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+

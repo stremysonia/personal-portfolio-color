@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;300;400;500;600;700;800;900&family=Luckiest+Guy&display=swap');
+
+.title {
+	letter-spacing: 1rem;
+  width: 30rem;
+  height: 20rem;
+  position: absolute;
+  top: 50%;
+  left: 69%;
+  transform: translate(-50%, -50%);
+}
+
+.title-letters-top,
+.title-letters-bottom {
+  font-size: 7rem;
+  line-height: 1;
+  text-transform: uppercase;
+	font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+.letter-lowercase {
+	text-transform: lowercase;
+}
+
+.letter-flicker {
+	animation: letter-flicker 4s linear infinite;
+	font-size: 8rem;
+}
+
+
+  @keyframes letter-flicker {
+    0% {
+      opacity:0.1;
+    }
+    10% {
+      opacity:0.1;
+    }
+
+    20% {
+      opacity:1;
+    }
+
+    30% {
+      opacity:1;
+    }
+
+    40% {
+      opacity:0.1;
+    }
+
+    50% {
+      opacity:1;
+    }
+
+    60% {
+      opacity:1;
+    }
+
+    70% {
+      opacity:0.4;
+    }
+
+    80% {
+      opacity:1;
+     
+    }
+  }
+
+  @keyframes bounce {
+    from {
+      transform: translate(0, 0, 0);
+      }
+    to {
+        transform: translate3d(0, 15px, 0);
+      }
+  }
+
+.home-subtitle {
+  padding-top: .6rem;
+  font-size: .8rem;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: lowercase;
+  align-items: center;
+  letter-spacing: .6rem;
+}

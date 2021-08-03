@@ -5,8 +5,19 @@ const About = () => {
         return (
         <>
             <div className="about-container">
-                <div className="about-paragraph">
-                    <p className="bio"> 
+            <div className="about-title">
+                    <span className="about-flicker">A</span>
+                    <span className="">b</span>
+                    <span className="about-flicker">o</span>
+                    <span>u</span>
+                    <span className="about-flicker about-space">t</span>
+                        <span>M</span>
+                        <span className="about-flicker">e</span>
+                            <span className="about-effect about-bounce-one"></span>
+                            <span className="about-effect about-bounce-two"></span>
+                            <span className="about-effect about-bounce-three"></span>
+            </div>
+                <p className="bio"> 
                         My name is Sonia St. Remy. I was born and raised in the Miami,
                         Florida area where the mix of various cultures has made me the person I
                         am today. My career has been spent working two years in the social
@@ -18,11 +29,16 @@ const About = () => {
                         my skills to be the best Front End Web Developer I can be. I have
                         finally found the career that will blend my passion for creativity and my
                         love for technology.
-                        <div className="words">Edgy | Creative | Passionate | Inquistive | Charismatic</div>
-                    </p>
-                </div>
-            </div>
-        </>
-        );
+                        <div className="words">
+                            <span>Edgy</span> 
+                            <span>Creative</span> 
+                            <span>Passionate</span> 
+                            <span>Inquistive</span> 
+                            <span>Charismatic</span> 
+                        </div>
+                </p>
+        </div>
+    </>
+    );
 }
 export default About;
