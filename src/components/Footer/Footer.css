@@ -16,8 +16,10 @@ footer {
 
 .copy-rights {
     text-transform: uppercase;
-    letter-spacing: .08px;
-    font-size: .84rem;
+    letter-spacing: .09rem;
+    font-size: .60rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .footer-links {
