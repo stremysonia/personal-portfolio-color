@@ -1,10 +1,14 @@
 * {
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-}
+/* Dark Blue #1E4174
+Dark Yellow #DDA94B 
+Light Blue #7b9acc
+White #FCF6F5
+Green #2BAE66 
+White #2BAE66
+Yellow #FFD662
+Blue #00539C*/

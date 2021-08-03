@@ -1,0 +1,13 @@
+.subtitle-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 40%;
+    left: 51%;
+    padding: .5rem;
+    transform: translate(-50, -50%);
+}
+
+.subtitle {
+    letter-spacing: 0.04rem;
+}

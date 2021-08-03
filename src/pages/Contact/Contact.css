@@ -1,0 +1,29 @@
+.contact-container {
+    margin: 0;
+    height: 30rem;
+    width: 34rem;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-title {
+    position: absolute;
+    top: 20%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+    letter-spacing: .2rem;
+    text-align: center;
+    /* padding: 10rem 4rem; */
+	font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+.contact-flicker {
+    animation: letter-flicker 4s linear infinite;
+}
+
+.contact-space {
+    padding: .9rem;
+}
